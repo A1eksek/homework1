@@ -18,7 +18,9 @@ while i < 11:
     i += 1
     print()
 
-for i in range (3, 6):
+a = int(input("Укажите начало диапазона"))
+b = int(input("Укажите конец диапазона"))
+for i in range (a, b+1):
     for j in range(1, 11):
         print(i, '*', j, '=', i * j, sep='', end='\t')
     print()
